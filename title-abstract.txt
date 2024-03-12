@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Diffusion-Driven Shakespeare: Diffusion for Conditional Text Generation
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+The application of diffusion models in natural language has been an emerging area of research recently, especially for conditional text generation. While diffusion models have always been known for their powerful image generation capabilities, its limited application to text generation is largely due to the inherent discreteness of text. Despite that, recent research has successfully applied continuous diffusion on text and shown breakthrough in conditional text generation. The success of diffusion models in conditional text generation can be attributed to the end-to-end learning of feature and embedding space. In this paper, we implement DiffuSeq on conversations in Shakespeare's Plays to demonstrate its ability to learn complex text representations and sentence structures. We further supplement DiffuSeq with advanced fine-tuning techniques including layer-wise learning rate decay and warm up steps to achieve better training quality. We find that loss drops further by 40\% when advanced fine-tuning techniques are adopted. With longer Shakespeare lines, we are able to create cohesive lines that can further possibly follow context and sentiment.
